@@ -16,3 +16,7 @@ The code is very simple. On a loop, it checks the light levels and publishes the
 
 If the light levels are above a certain value, it will also send an email using IFTTT. I added a `delay` to prevent duplicate emails.
 
+Here is what the Fritzing diagram looks like:
+
+![fritzing](https://github.com/williamyeny/physical-computing-midterm/blob/master/lsls-fritzing.PNG?raw=true)
+
