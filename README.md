@@ -10,3 +10,9 @@ The Light Switch Light Sensor, or LSLS for short, is designed to work with a Lig
 
 This project engages the data security topics we discussed in class by collecting and sending sensitive data. If hackers manage to access this data and the device is placed indoors, they can easily tell when the house's occupants are asleep or away if the light sensor records dim brightness. This can lead to malicious activity such as physical burglary, creepy tracking or unethical selling of data to companies.
 
+# Technical details
+
+The code is very simple. On a loop, it checks the light levels and publishes the information so that the Light Switch Activator can receive it. If the Light Switch Activator is activated, the Light Sensor will blink an LED 3 times to indicate it has been triggered.
+
+If the light levels are above a certain value, it will also send an email using IFTTT. I added a `delay` to prevent duplicate emails.
+
