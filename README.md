@@ -14,6 +14,11 @@ This project engages the data security topics we discussed in class by collectin
 
 I decided to 3D print my enclosure to ensure durability as well as to give it a polished look. I really like the look of the two colors from the two different prints, although that was an unintended aesthetic. Overall, I wanted a minimalist/clean look, and 3D printing was quite easy to do since all I had to model was a simple box and lid.
 
+## Images of product
+
+![covered](https://github.com/williamyeny/physical-computing-midterm/blob/master/lsls-covered.jpg?raw=true)
+![open](https://github.com/williamyeny/physical-computing-midterm/blob/master/lsls-open.jpg?raw=true)
+
 ## Technical details
 
 The code is very simple. On a loop, it checks the light levels and publishes the information so that the Light Switch Activator can receive it. If the Light Switch Activator is activated, the Light Sensor will blink an LED 3 times to indicate it has been triggered.
